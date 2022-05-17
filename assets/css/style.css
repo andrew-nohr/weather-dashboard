@@ -1,47 +1,15 @@
-* {
-    overflow-x: hidden;
+.hero {
+    background-image: linear-gradient(to right, royalblue, gray);
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
 }
 
-header {
-    background: skyblue;
-}
-
-.border-top {
-    border-top: 1px solid black;
-}
-
-.space {
-    margin: 10px;
-}
-
-.margin {
-    margin-top: 10px;
-}
-
-.red {
-    background-color: red;
-}
-
-.green {
-    background-color: springgreen;
-}
-
-.yellow {
-    background-color: yellow;
-}
-
-.gray {
-    background-color: royalblue;
+.hero h1 {
+    font-weight: bold;
     color: white;
 }
 
-.grow {
-    flex: 3 0;
-}
-
-@media screen and (max-width: 568px) {
-    main {
-        display: flex;
-        flex-wrap: wrap;
-    }
+.card-body {
+    background-color: #33475A;
 }
