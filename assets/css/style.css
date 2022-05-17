@@ -1,0 +1,47 @@
+* {
+    overflow-x: hidden;
+}
+
+header {
+    background: skyblue;
+}
+
+.border-top {
+    border-top: 1px solid black;
+}
+
+.space {
+    margin: 10px;
+}
+
+.margin {
+    margin-top: 10px;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: springgreen;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.gray {
+    background-color: royalblue;
+    color: white;
+}
+
+.grow {
+    flex: 3 0;
+}
+
+@media screen and (max-width: 568px) {
+    main {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

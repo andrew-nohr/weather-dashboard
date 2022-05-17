@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="icon" href="data:,"> <!--To prevent favicon errors when on github-->
+    <title>Weather Dashboard</title>
+</head>
+
+<body>
+    <header class="hero">
+        <h1>Weather Dashboard</h1>
+    </header>
+
+    <main class="container">
+        <div class="row">
+
+            <div class="search col-3">
+                <div class="mb-2">
+                    <h2 class="font-weight-bold">Search for a city:</h2>
+                    <input class="form-control w-100 my-2" placeholder="Sacramento" id="cityInput">
+                    <button class="btn btn-primary w-100 my-2 disabled" id="search-btn">Search</button>
+                </div>
+                <div class="border-top border-dark pt-2" id="search-history">
+                </div>
+            </div>
+
+            <div class="weather-data col">
+                <div class="container">
+                    <div class="current-weather row border border-dark ">
+                        <h2 class="font-weight-bold" id="cityName">Enter a city</h2>
+                        <img id="currentWeatherIcon"></img>
+                        <p class="w-100" id="currentTemp">Temp: -- &#176F</p>
+                        <p class="w-100" id="currentWind">Wind: -- MPH</p>
+                        <p class="w-100" id="currentHumidity">Humidity: -- %</p>
+                        <p class="" id="currentUVI">UV Index: -- </p>
+                    </div>
+
+                    <div class="forecast-heading row">
+                        <h3 class="font-weight-bold mt-3">5 Day Forecast:</h3>
+                    </div>
+
+                    <div class="forecast row justify-content-between" id="forecast">
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+    
+    <script src="assets/js/script.js"></script>
+    
+</body>
+
+</html>
